@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+
+<title>Anime Hub</title>
+<style>
+    img{
+      height:50%; 
+      width:50%; 
+      
+    }
+    
+    body{
+    background-image: url(images/background_contact.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    } 
+    </style>
+
+
+</head>
+<header>
+		<img id="logo" src="images/logo_small.png" alt="logo">
+</header>
+<body>
+<nav class="navigation">
+	<ul>
+    <a href="index.html"><li class ="navHome ">Home</li></a>
+    <a href="vocaloid.html"><li class ="navVocaloid">Vocaloid</li></a>
+    <a href="about.html"><li class="navAbout">About</li></a>
+    <a href="contact.html"><li class="navContact active">Contact</li></a>
+	</ul>
+</nav>
+
+
+<div class= "contact_container">
+    
+
+<aside class="contact">
+   <h2>Contact</h2>
+<form action="confirmation.php" method="post" name="form1" id="form1">
+<label for="textfield"> Name: </label><br>
+<input name="textfield" type="text" required id="textfield" form="form1" size="18" style="color:black"><br><br>  
+<label for="email"> Email: </label> <br>
+<input name="email" type="email" required id="email" form="form1" size="18" style="color:black"><br>
+<label for ="textarea"><br> Comments:</label><br> 
+<textarea name="textarea" cols="20" required id="textarea" style="color:black"></textarea><br>
+<input id="submit" type="submit" name="submit" id="submit" value="Submit">
+&nbsp;
+</form>
+  
+    </aside>
+    
+      <img src = "images/contact_right.png"/>
+    
+
+ 
+ 
+    </div>
+
+<script type=text/javascript src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+<footer><p> AnimeHub Media Group 2016</p></footer>
+</body>
+
+</html>
